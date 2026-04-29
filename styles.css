@@ -11,10 +11,10 @@
     --chrome-glow: rgba(0, 0, 0, 0.05);
     --accent: #F26721;
     --accent-light: #FF8A50;
-    --white: #1A1A1A;
-    --white-muted: #555555;
-    --text-dim: #888888;
-    --border: rgba(0, 0, 0, 0.08);
+    --white: #000000;
+    --white-muted: #000000;
+    --text-dim: #000000;
+    --border: rgba(0, 0, 0, 0.15);
     --font-heading: 'Merriweather', Georgia, serif;
     --font-body: 'Montserrat', 'Segoe UI', sans-serif;
     --color-heading: #F26721;
@@ -40,7 +40,7 @@ body {
     background-color: var(--bg-dark-section);
     color: #FFFFFF;
 }
-.bg-dark-section .section-label { color: var(--text-dim); }
+.bg-dark-section .section-label { color: #AAAAAA; }
 .bg-dark-section .section-title { color: #FFFFFF; }
 .bg-dark-section .section-desc { color: #CCCCCC; }
 
@@ -62,7 +62,7 @@ body {
 
 .hero-bg-overlay {
     position: absolute; inset: 0;
-    background: linear-gradient(180deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.85) 50%, #FFFFFF 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.4) 60%, #FFFFFF 100%);
     z-index: 1;
 }
 
@@ -99,7 +99,7 @@ body {
 .hero-subtitle {
     font-size: clamp(0.95rem, 2vw, 1.15rem);
     color: var(--white-muted); max-width: 620px;
-    margin: 0 auto 2.5rem; font-weight: 300; line-height: 1.7;
+    margin: 0 auto 2.5rem; font-weight: 500; line-height: 1.7;
 }
 .hero-subtitle strong { color: var(--chrome-light); font-weight: 600; }
 .hero-subtitle em { font-style: italic; color: var(--chrome); }
@@ -184,7 +184,7 @@ section { padding: 5rem 1.5rem; max-width: 1100px; margin: 0 auto; }
 .section-desc {
     text-align: center; color: var(--white-muted);
     max-width: 650px; margin: 0 auto 3rem;
-    font-size: 0.95rem; line-height: 1.7; font-weight: 300;
+    font-size: 0.95rem; line-height: 1.7; font-weight: 500;
 }
 
 /* ===== SCROLL ANIMATION ===== */
@@ -264,7 +264,7 @@ section { padding: 5rem 1.5rem; max-width: 1100px; margin: 0 auto; }
 .brand-story .brand-quote::after { content: '"'; margin-left: 0.2em; }
 .brand-story .brand-body {
     color: var(--white-muted); font-size: 0.95rem;
-    line-height: 1.8; font-weight: 300;
+    line-height: 1.8; font-weight: 500;
 }
 
 /* ===== PRICE TIMELINE ===== */
