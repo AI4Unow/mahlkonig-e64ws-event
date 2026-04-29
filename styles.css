@@ -168,8 +168,8 @@ body {
 section { padding: 5rem 1.5rem; max-width: 1100px; margin: 0 auto; }
 
 .section-label {
-    font-size: 0.7rem; text-transform: uppercase;
-    letter-spacing: 4px; color: var(--chrome);
+    font-size: 0.75rem; text-transform: uppercase; font-weight: 600;
+    letter-spacing: 4px; color: #111111;
     margin-bottom: 0.8rem; text-align: center;
 }
 
@@ -257,7 +257,7 @@ section { padding: 5rem 1.5rem; max-width: 1100px; margin: 0 auto; }
 }
 .brand-story .brand-quote::before,
 .brand-story .brand-quote::after {
-    font-size: 3rem; color: rgba(0,0,0,0.08);
+    font-size: 3rem; color: rgba(0,0,0,0.2);
     line-height: 0; vertical-align: -0.4em;
 }
 .brand-story .brand-quote::before { content: '"'; margin-right: 0.2em; }
@@ -358,7 +358,7 @@ section { padding: 5rem 1.5rem; max-width: 1100px; margin: 0 auto; }
 /* ===== FOOTER ===== */
 footer { text-align: center; padding: 3rem 1.5rem; border-top: 1px solid var(--border); color: var(--text-dim); font-size: 0.85rem; }
 .footer-logo { height: 40px; width: auto; margin-bottom: 1rem; opacity: 0.7; }
-.footer-link-gold { color: var(--chrome); text-decoration: none; }
+.footer-link-gold { color: #111111; font-weight: 600; text-decoration: none; }
 
 /* ===== TECH BADGE ===== */
 .tech-badges {
