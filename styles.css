@@ -2,18 +2,19 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-    --bg-dark: #FDFBF7;
+    --bg-dark: #FFFFFF;
     --bg-card: #FFFFFF;
     --bg-card-hover: #FFFFFF;
-    --chrome: #D1CEC7;
+    --bg-dark-section: #111111;
+    --chrome: #E0E0E0;
     --chrome-light: #000000;
-    --chrome-glow: rgba(0, 0, 0, 0.08);
+    --chrome-glow: rgba(0, 0, 0, 0.05);
     --accent: #F26721;
     --accent-light: #FF8A50;
-    --white: #111111;
+    --white: #1A1A1A;
     --white-muted: #555555;
     --text-dim: #888888;
-    --border: rgba(0, 0, 0, 0.06);
+    --border: rgba(0, 0, 0, 0.08);
     --font-heading: 'Merriweather', Georgia, serif;
     --font-body: 'Montserrat', 'Segoe UI', sans-serif;
     --color-heading: #F26721;
@@ -21,6 +22,7 @@
 
 html { scroll-behavior: smooth; overflow-x: hidden; }
 
+/* ===== BASE STYLES ===== */
 body {
     font-family: var(--font-body);
     background: var(--bg-dark);
@@ -30,6 +32,17 @@ body {
     width: 100%;
     -webkit-font-smoothing: antialiased;
 }
+
+.bg-alt {
+    background-color: #F8F8F8;
+}
+.bg-dark-section {
+    background-color: var(--bg-dark-section);
+    color: #FFFFFF;
+}
+.bg-dark-section .section-label { color: var(--text-dim); }
+.bg-dark-section .section-title { color: #FFFFFF; }
+.bg-dark-section .section-desc { color: #CCCCCC; }
 
 /* ===== HERO ===== */
 .hero {
